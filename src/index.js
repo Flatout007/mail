@@ -10,7 +10,7 @@ const g = window.addEventListener('DOMContentLoaded', (event) => {
     sideBar.addEventListener('click', (e) => {
         let li = e.target;
 
-        let liValue = li.value.toLowerCase();
+        let liValue = li.value;
 
         window.location.hash = liValue;
     });

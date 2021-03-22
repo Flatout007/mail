@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("//console.log('its working');\n\n\n\nconst g = window.addEventListener('DOMContentLoaded', (event) => {\n    //console.log('its working');\n\n    let sideBar = document.querySelector('.sidebar-nav')\n\n    sideBar.addEventListener('click', (e) => {\n        let li = e.target;\n\n        let liValue = li.value.toLowerCase();\n\n        window.location.hash = liValue;\n    });\n});\n\n\n//# sourceURL=webpack://Mail/./src/index.js?");
+eval("//console.log('its working');\n\n\n\nconst g = window.addEventListener('DOMContentLoaded', (event) => {\n    //console.log('its working');\n\n    let sideBar = document.querySelector('.sidebar-nav')\n\n    sideBar.addEventListener('click', (e) => {\n        let li = e.target;\n\n        let liValue = li.value;\n\n        window.location.hash = liValue;\n    });\n});\n\n\n//# sourceURL=webpack://Mail/./src/index.js?");
 
 /***/ })
 
